@@ -1,3 +1,6 @@
 .DS_Store
 /.vs/slnx.sqlite
 /.vs/config/applicationhost.config
+/.vs
+/combiner/obj
+/combiner/bin/Debug/netcoreapp2.0

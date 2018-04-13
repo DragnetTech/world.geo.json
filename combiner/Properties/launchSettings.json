@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "combiner": {
+      "commandName": "Project",
+      "commandLineArgs": "uncombine"
+    }
+  }
+}

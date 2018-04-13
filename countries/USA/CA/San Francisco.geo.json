@@ -1,50 +1,47 @@
 {
   "type": "FeatureCollection",
-  "properties": {
-    "kind": "state",
-    "state": "CA"
-  },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "kind": "county",
         "name": "San Francisco",
-        "state": "CA"
+        "state": "CA",
+        "filename": "C:\\Users\\pmend\\source\\repos\\world.geo.json\\combiner\\bin\\Debug\\netcoreapp2.0\\San Francisco.geo.json",
+        "originalid": "sanfran1"
       },
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Polygon",
         "coordinates": [
           [
-          [
-              [
-                -122.4281,
-                37.7068
-              ],
-              [
-                -122.5048,
-                37.7068
-              ],
-              [
-                -122.5158,
-                37.7835
-              ],
-              [
-                -122.4062,
-                37.8108
-              ],
-              [
-                -122.3569,
-                37.7287
-              ],
-              [
-                -122.4281,
-                37.7068
-              ]
+            [
+              -122.4281,
+              37.7068
+            ],
+            [
+              -122.5048,
+              37.7068
+            ],
+            [
+              -122.5158,
+              37.7835
+            ],
+            [
+              -122.4062,
+              37.8108
+            ],
+            [
+              -122.3569,
+              37.7287
+            ],
+            [
+              -122.4281,
+              37.7068
             ]
+          ]
         ]
-        ]
-      }
+      },
+      "id": "sanfran1"
     }
   ]
 }
