@@ -1,3 +1,71 @@
-{"type":"FeatureCollection","properties":{"kind":"state","state":"NY"},"features":[
-{"type":"Feature","properties":{"kind":"county","name":"Schenectady","state":"NY"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-74.0941,42.9537],[-73.9572,42.8989],[-73.9025,42.9099],[-73.8970,42.8496],[-73.8093,42.7784],[-74.1818,42.7291],[-74.2749,42.7127],[-74.3077,42.7511],[-74.2530,42.7620],[-74.2639,42.7949],[-74.0832,42.8989]]]]}}
-]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "county",
+        "name": "Schenectady",
+        "state": "NY",
+        "filename": "C:\\Users\\pmend\\source\\repos\\world.geo.json\\combiner\\bin\\Debug\\netcoreapp2.0\\NY\\Schenectady.geo.json",
+        "originalid": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0941,
+              42.9537
+            ],
+            [
+              -74.0832,
+              42.8989
+            ],
+            [
+              -74.2639,
+              42.7949
+            ],
+            [
+              -74.253,
+              42.762
+            ],
+            [
+              -74.3077,
+              42.7511
+            ],
+            [
+              -74.2749,
+              42.7127
+            ],
+            [
+              -74.1818,
+              42.7291
+            ],
+            [
+              -73.8093,
+              42.7784
+            ],
+            [
+              -73.897,
+              42.8496
+            ],
+            [
+              -73.9025,
+              42.9099
+            ],
+            [
+              -73.9572,
+              42.8989
+            ],
+            [
+              -74.0941,
+              42.9537
+            ]
+          ]
+        ]
+      },
+      "id": "45"
+    }
+  ]
+}

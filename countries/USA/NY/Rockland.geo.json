@@ -1,3 +1,59 @@
-{"type":"FeatureCollection","properties":{"kind":"state","state":"NY"},"features":[
-{"type":"Feature","properties":{"kind":"county","name":"Rockland","state":"NY"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-73.9846,41.3216],[-73.9463,41.2887],[-73.9682,41.2504],[-73.8860,41.1408],[-73.8915,40.9984],[-74.2146,41.1354],[-74.2365,41.1408],[-73.9791,41.3270]]]]}}
-]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "county",
+        "name": "Rockland",
+        "state": "NY",
+        "filename": "C:\\Users\\pmend\\source\\repos\\world.geo.json\\combiner\\bin\\Debug\\netcoreapp2.0\\NY\\Rockland.geo.json",
+        "originalid": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9846,
+              41.3216
+            ],
+            [
+              -73.9791,
+              41.327
+            ],
+            [
+              -74.2365,
+              41.1408
+            ],
+            [
+              -74.2146,
+              41.1354
+            ],
+            [
+              -73.8915,
+              40.9984
+            ],
+            [
+              -73.886,
+              41.1408
+            ],
+            [
+              -73.973350524902344,
+              41.252774328411206
+            ],
+            [
+              -73.9463,
+              41.2887
+            ],
+            [
+              -73.9846,
+              41.3216
+            ]
+          ]
+        ]
+      },
+      "id": "43"
+    }
+  ]
+}

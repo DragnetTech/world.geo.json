@@ -26,7 +26,11 @@ namespace combiner
             {
                 var properties = feature["properties"];
                 var originalid = (string)properties["originalid"];
-                if(!featuresByID.ContainsKey(originalid))
+                if(originalid == null)
+                {
+                    originalid = (string)feature["id"];
+                }
+                if (!featuresByID.ContainsKey(originalid))
                 {
                     feature["id"] = originalid;
                     featuresByID.Add(originalid, feature);

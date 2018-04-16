@@ -1,3 +1,55 @@
-{"type":"FeatureCollection","properties":{"kind":"state","state":"NY"},"features":[
-{"type":"Feature","properties":{"kind":"county","name":"Chautauqua","state":"NY"},"geometry":{"type":"MultiPolygon","coordinates":[[[[-79.1384,42.5703],[-79.0617,42.5374],[-79.0617,42.0007],[-79.6094,42.0007],[-79.7628,42.0007],[-79.7628,42.2526],[-79.7628,42.2691],[-79.1384,42.5703]]]]}}
-]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "county",
+        "name": "Chautauqua",
+        "state": "NY",
+        "filename": "C:\\Users\\pmend\\source\\repos\\world.geo.json\\combiner\\bin\\Debug\\netcoreapp2.0\\NY\\Chautauqua.geo.json",
+        "originalid": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.1384,
+              42.5703
+            ],
+            [
+              -79.7628,
+              42.2691
+            ],
+            [
+              -79.7628,
+              42.2526
+            ],
+            [
+              -79.7628,
+              42.0007
+            ],
+            [
+              -79.6094,
+              42.0007
+            ],
+            [
+              -79.0617,
+              42.0007
+            ],
+            [
+              -79.0617,
+              42.5374
+            ],
+            [
+              -79.1384,
+              42.5703
+            ]
+          ]
+        ]
+      },
+      "id": "6"
+    }
+  ]
+}

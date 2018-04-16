@@ -14,7 +14,7 @@ namespace combiner
         // combine "..\..\..\..\countries\USA.geo.json"
         public static int Combine(Program.CombineOptions options)
         {
-            var geojsonFiles = Directory.GetFiles(Environment.CurrentDirectory).Where(f => Path.GetFileName( f) != "combined.json" && !Regex.IsMatch(Path.GetFileName(f), @"combiner\.") && Path.GetExtension(f) == ".json");
+            var geojsonFiles = Directory.GetFiles(Environment.CurrentDirectory, "*.json", SearchOption.AllDirectories).Where(f => Path.GetFileName( f) != "combined.json" && !Regex.IsMatch(Path.GetFileName(f), @"combiner\.") && Path.GetExtension(f) == ".json");
 
 
             var jsons = geojsonFiles.Select(f => new { filepath = f, json = JObject.Parse(File.ReadAllText(f)) }).ToList();
